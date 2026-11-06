@@ -1,0 +1,34 @@
+[
+  {
+    "poses": "dados_exemplo/video1/poses (1).npz",
+    "vtt": "dados_exemplo/video1/-3L_7QmUmcc.pt-BR.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video2/poses (2).npz",
+    "vtt": "dados_exemplo/video2/0Y35kk3HLrM.pt-BR.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video3/poses (4).npz",
+    "vtt": "dados_exemplo/video3/-S1AtooEizk.pt-BR.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video4/poses (5).npz",
+    "vtt": "dados_exemplo/video4/-SClbl--fVk.pt-BR.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video5/poses (6).npz",
+    "vtt": "dados_exemplo/video5/05qgsOpazSo.pt.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video6/poses (7).npz",
+    "vtt": "dados_exemplo/video6/-AFfqWTMRx4.pt-BR.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video7/poses (8).npz",
+    "vtt": "dados_exemplo/video7/-kbtjMgc91w.pt.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video8/poses (9).npz",
+    "vtt": "dados_exemplo/video8/2R8woMdxsoU.pt.vtt"
+  }
+]

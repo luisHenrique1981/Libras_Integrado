@@ -1,12 +1,21 @@
+# Ambiente Python
 .venv/
-libras_AI_training/data/processed/dataset_libras.csv
+venv/
+__pycache__/
+*.pyc
 
-# Traducao de Libras por poses (dados locais / artefatos grandes)
-.venv_transformer/
-**/__pycache__/
-**/*.pyc
-libras_AI_training/pose_translation/dados_exemplo/**/*.npz
-libras_AI_training/pose_translation/dados_exemplo/**/*.vtt
-libras_AI_training/pose_translation/dados_traducao/
-libras_AI_training/pose_translation/modelos/
-libras_AI_training/pose_translation/pares_libras.json
+# Dados de treinamento
+**/dados_exemplo/
+**/dados_traducao/
+**/dados_traducao_backup_*/
+**/drive_libras_10/
+
+# Pesos de modelos e landmarks
+*.npz
+*.pt
+*.pth
+
+# Credenciais
+.env
+.env.*
+!.env.example
