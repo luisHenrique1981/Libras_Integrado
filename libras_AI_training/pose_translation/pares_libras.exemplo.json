@@ -1,0 +1,14 @@
+[
+  {
+    "poses": "dados_exemplo/video1/poses.npz",
+    "vtt": "dados_exemplo/video1/0gI4_nB_qM0.pt-BR.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video2/poses (1).npz",
+    "vtt": "dados_exemplo/video2/vyjRxIQ8tmQ.pt-BR.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video3/poses (2).npz",
+    "vtt": "dados_exemplo/video3/HGdmdrycM0M.pt.vtt"
+  }
+]

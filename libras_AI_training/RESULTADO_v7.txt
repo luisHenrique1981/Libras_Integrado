@@ -1,0 +1,28 @@
+======================================================================
+  RESULTADO PIPELINE LIBRAS v7
+======================================================================
+VLibrasBD: 127349 pares  (governo=55047, geral=72302)  ganho_vs_v1=1.87x
+Mesclar  : 127838 pares finais  (descartados: 1969/132333=1.5%)
+Dataset  :  73,318 pares treino | 15,711 val | 15,712 teste
+Balanceam: max_pct_tema=0.4  removidos=23085  cap_pares=51130
+HPO v7   : trial #13 | chrF=52.4142 | 11/14 trials OK | fim=timeout
+         : lr=1.16e-03  batch=8  lora_r=16  alpha=128  drop=0.082  sched=cosine_with_restarts
+Eval     : [libras2pt   ]  chrF=39.08  BLEU4=11.12  EM=3.86%  n=15715
+Eval     : [pt2libras   ]  chrF=61.21  BLEU4=39.50  EM=14.79%  n=15715
+──────────────────────────────────────────────────────────────────────
+TRAJETORIA MULTI-VERSAO:
+  #   modelo                         chrf_med   chrf_p2l   chrf_l2p
+  0   v5_baseline_retroativo            68.66      79.35      57.96
+  1   libras_v6                         54.72      66.55      42.90
+  2   libras_v7                         50.15      61.21      39.08
+  MELHOR HISTORICO: v5_baseline_retroativo chrF_medio=68.66
+──────────────────────────────────────────────────────────────────────
+Erros    : [libras2pt   ]  erro_real=84% | quase_acerto=16%
+Erros    : [pt2libras   ]  quase_acerto=52% | erro_real=47% | pontuacao=0%
+──────────────────────────────────────────────────────────────────────
+GPS      : REGRESSAO vs run anterior
+Acao     : INVESTIGAR. Comparar config_campeao.json e prepare_report.json desta run (?) com a anterior (libras_v6). Verificar se houve mudanca de corpus, filtro, ou config sem benchmark adequado. NAO rode 03_train de novo ate identificar a causa.
+Razao    : chrF medio caiu 4.58 pontos vs run anterior (54.72)
+Deltas   : vs_anterior=-4.58  vs_melhor=-18.51  vs_baseline=-18.51
+Vocab    : noronha (tr=0, s=7.00), girafa (tr=0, s=6.00), reality (tr=0, s=6.00), carson (tr=0, s=6.00), tripartite (tr=0, s=6.00)
+======================================================================

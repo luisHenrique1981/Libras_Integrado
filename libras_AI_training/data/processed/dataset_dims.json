@@ -1,0 +1,75 @@
+{
+  "max_input": 160,
+  "max_target": 160,
+  "derivado_em": "2026-06-06T19:00:13.960749",
+  "metodo": "p99 global + 8 headroom, arredondado a multiplo de 16/8, cap 224/176",
+  "percentil_alvo": 99.0,
+  "headroom": 8,
+  "cap_input": 224,
+  "cap_target": 176,
+  "p99_input_global": 152,
+  "p99_target_global": 145,
+  "max_input_global": 274,
+  "max_target_global": 267,
+  "pct_truncamento_com_derivado": {
+    "input": 0.0073,
+    "target": 0.0055
+  },
+  "n_truncamento_com_derivado": {
+    "input": 1527,
+    "target": 1146
+  },
+  "stats_por_split": {
+    "treino": {
+      "n": 146650,
+      "input": {
+        "p50": 27,
+        "p95": 101,
+        "p99": 152,
+        "max": 274,
+        "n": 146650
+      },
+      "target": {
+        "p50": 20,
+        "p95": 94,
+        "p99": 145,
+        "max": 267,
+        "n": 146650
+      }
+    },
+    "val": {
+      "n": 31422,
+      "input": {
+        "p50": 27,
+        "p95": 101,
+        "p99": 151,
+        "max": 265,
+        "n": 31422
+      },
+      "target": {
+        "p50": 20,
+        "p95": 94,
+        "p99": 144,
+        "max": 258,
+        "n": 31422
+      }
+    },
+    "teste": {
+      "n": 31430,
+      "input": {
+        "p50": 27,
+        "p95": 102,
+        "p99": 153,
+        "max": 265,
+        "n": 31430
+      },
+      "target": {
+        "p50": 20,
+        "p95": 95,
+        "p99": 146,
+        "max": 258,
+        "n": 31430
+      }
+    }
+  }
+}

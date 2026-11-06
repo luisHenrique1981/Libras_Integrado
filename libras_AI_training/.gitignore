@@ -1,0 +1,23 @@
+# venv
+.venv*/
+__pycache__/
+*.pyc
+
+# dados (versionar fonte e processados e opcional; pesados ficam fora)
+data/raw/*.csv
+data/processed/*.csv
+
+# artefatos de execucao
+artifacts/models/
+artifacts/studies/*.db
+artifacts/logs/*.log
+artifacts/audit/*.json
+artifacts/configs/*.json
+data/reports/*.json
+data/reports/*.csv
+
+# lixeira do cleanup
+_arquivo_morto_*/
+
+# symlink para venv externa
+.venv

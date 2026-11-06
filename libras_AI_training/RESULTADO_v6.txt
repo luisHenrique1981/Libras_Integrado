@@ -1,0 +1,17 @@
+==============================================================
+  RESULTADO PIPELINE LIBRAS v6
+==============================================================
+Dataset  :  49,254 pares treino | 10,554 val | 10,556 teste  |  dataset_merged_v6.csv
+HPO      : trial #11 | chrF=40.5925 | 9/12 trials OK | fim=timeout
+         : lr=1.28e-03  batch=8  lora_r=8  alpha=64  sched=linear
+Eval     : [libras2pt   ]  chrF=42.90  BLEU4=18.16  EM=14.75%  n=10557
+Eval     : [pt2libras   ]  chrF=66.55  BLEU4=48.91  EM=31.55%  n=10557
+──────────────────────────────────────────────────────────────
+Erros    : [libras2pt   ]  erro_real=74% | quase_acerto=26%
+Erros    : [pt2libras   ]  quase_acerto=62% | erro_real=38% | pontuacao=0%
+──────────────────────────────────────────────────────────────
+GPS      : BASELINE
+Acao     : Registro inicial. Rode outra iteracao apos coletar mais dados ou ajustar config. Comparacoes inteligentes comecam a partir da 2a run.
+Razao    : primeira execucao registrada; sem historico para comparar
+Vocab    : cognitivo (tr=0, s=5.00), planeado (tr=0, s=5.00), level (tr=0, s=4.00), simetria (tr=0, s=4.00), quebradiço (tr=0, s=4.00)
+==============================================================

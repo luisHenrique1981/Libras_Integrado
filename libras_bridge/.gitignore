@@ -1,0 +1,31 @@
+# Build outputs
+.gradle/
+build/
+app/build/
+*.apk
+*.aab
+*.class
+*.kotlin_module
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+local.properties
+captures/
+
+# Vídeos — distribuídos via Google Drive (ver README)
+app/src/main/assets/videos/
+**/videos/
+
+# Diagnóstico e saídas temporárias
+output/
+tools/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Gradle wrapper: manter o jar e as properties, ignorar o resto
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties

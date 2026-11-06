@@ -1,0 +1,12 @@
+.venv/
+libras_AI_training/data/processed/dataset_libras.csv
+
+# Traducao de Libras por poses (dados locais / artefatos grandes)
+.venv_transformer/
+**/__pycache__/
+**/*.pyc
+libras_AI_training/pose_translation/dados_exemplo/**/*.npz
+libras_AI_training/pose_translation/dados_exemplo/**/*.vtt
+libras_AI_training/pose_translation/dados_traducao/
+libras_AI_training/pose_translation/modelos/
+libras_AI_training/pose_translation/pares_libras.json

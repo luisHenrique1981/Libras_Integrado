@@ -1,0 +1,17 @@
+# Ignora a pasta de vídeos baixados
+videos_libras/
+
+# Ignora a pasta de frames gerados para o machine learning (opcional, caso não queira subir imagens pesadas)
+dataset_teachable_machine/
+
+# Ignora o banco de dados local (geralmente é bom manter localmente)
+libras_videos.db
+
+# Ignora arquivos de cache do Python
+__pycache__/
+*.pyc
+
+# Ignora arquivos de ambiente virtual, se houver
+venv/
+env/
+.env

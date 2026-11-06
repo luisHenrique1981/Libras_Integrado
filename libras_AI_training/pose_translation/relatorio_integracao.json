@@ -1,0 +1,16 @@
+{
+  "dataset": "dados_traducao",
+  "exemplos": 299,
+  "videos_grupos": {
+    "par01_0gI4_nB_qM0": 106,
+    "par02_vyjRxlQ8tmQ": 58,
+    "par03_HGdmdrycM0M": 135
+  },
+  "formatos_features": {
+    "(310,)": 299
+  },
+  "segmentos_invalidos": 0,
+  "vocabulario_aproximado": 1024,
+  "avisos": [],
+  "nota": "Conferencia de integridade, nao mede fidelidade das legendas nem qualidade da traducao."
+}

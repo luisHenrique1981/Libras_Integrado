@@ -1,0 +1,42 @@
+[
+  {
+    "poses": "dados_exemplo/video1/poses.npz",
+    "vtt": "dados_exemplo/video1/0gI4_nB_qM0.pt-BR.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video2/poses (1).npz",
+    "vtt": "dados_exemplo/video2/legenda.pt-BR.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video3/poses (2).npz",
+    "vtt": "dados_exemplo/video3/HGdmdrycM0M.pt.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video4/poses (3).npz",
+    "vtt": "dados_exemplo/video4/ra9ugjqFJy4.pt.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video5/poses (4).npz",
+    "vtt": "dados_exemplo/video5/m-peMTZvakQ.pt-BR.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video6/poses (5).npz",
+    "vtt": "dados_exemplo/video6/jtnn_QVPBBs.en.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video7/poses (6).npz",
+    "vtt": "dados_exemplo/video7/ifclPfqki_c.pt.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video8/poses (7).npz",
+    "vtt": "dados_exemplo/video8/4fhd864K7mc.pt-BR.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video9/poses (8).npz",
+    "vtt": "dados_exemplo/video9/ygNUfqV1Je4.pt-BR.vtt"
+  },
+  {
+    "poses": "dados_exemplo/video10/poses (9).npz",
+    "vtt": "dados_exemplo/video10/jO7-AQMwnhM.pt.vtt"
+  }
+]
